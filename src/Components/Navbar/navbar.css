@@ -1,0 +1,42 @@
+.logo__leetcode {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.header__class {
+    background-color: #24252A;
+    color: #edf0f1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+}
+
+.nav__list {
+    list-style: none;
+}
+
+.nav__list li {
+    display: inline-block;
+    padding: 0px 20px;
+    cursor: pointer;
+}
+
+.nav__list li a {
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+.nav__list li a:hover {
+    color: rgb(170, 255, 0);
+}
+
+.active {
+    color: rgb(170, 255, 0) !important;
+}
+
+.username:hover {
+    color: rgb(170, 255, 0);
+    cursor: pointer;
+}
