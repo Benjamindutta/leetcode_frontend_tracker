@@ -40,3 +40,37 @@
     color: rgb(170, 255, 0);
     cursor: pointer;
 }
+
+.search-bar input {
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+    margin-right: 5px;
+}
+
+.search-bar button {
+    cursor: pointer;
+}
+
+.logout {
+    margin-left: 7.5%;
+    cursor: pointer;
+}
+
+.logout:hover {
+    color: #FF5733;
+}
+
+@media (max-width: 768px) {
+    .header__class {
+        flex-direction: column;
+        text-align: center;
+        height: 35%;
+    }
+
+    .search-bar {
+        margin-bottom: 2.5%;
+    }
+
+
+}
