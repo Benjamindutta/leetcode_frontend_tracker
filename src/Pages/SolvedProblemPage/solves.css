@@ -1,0 +1,86 @@
+:root {
+    --main-radius: 15px;
+    --main-padding: 5px;
+    --color-shadow: rgb(170, 255, 0);
+    --background-color: black;
+}
+
+.container {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.2fr 0.8fr 0.8fr 0.8fr;
+    grid-template-areas:
+        "nav nav nav nav"
+        "qod main main main"
+        "difficulty main main main"
+        ". main main main";
+
+    grid-gap: 1rem;
+    background-color: var(--background-color);
+    color: white;
+}
+
+.navbar {
+    grid-area: nav;
+    border-radius: var(--main-radius);
+    padding-top: var(--main-padding);
+}
+
+.difficulty-box {
+    background-color: var(--background-color);
+    border-color: var(--color-shadow);
+    border-width: .2rem;
+    border-style: solid;
+    grid-area: difficulty;
+    border-radius: var(--main-radius);
+    padding-top: var(--main-padding);
+    margin-left: 1rem;
+    box-shadow: 0px 0px 18px -3px var(--color-shadow);
+}
+
+.qod-box {
+    background-color: var(--background-color);
+    border-color: var(--color-shadow);
+    border-width: .2rem;
+    position: relative;
+    border-style: solid;
+    grid-area: qod;
+    border-radius: var(--main-radius);
+    padding-top: var(--main-padding);
+    margin-left: 1rem;
+    box-shadow: 0px 0px 18px -3px var(--color-shadow);
+}
+
+.main {
+    background-color: var(--background-color);
+    border-color: var(--color-shadow);
+    border-width: .2rem;
+    border-style: solid;
+    grid-area: main;
+    border-radius: var(--main-radius);
+    padding-top: var(--main-padding);
+    margin-right: 1rem;
+    box-shadow: 0px 0px 18px -3px var(--color-shadow);
+    margin-bottom: 1rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 2.5fr 6.5fr;
+        grid-template-areas:
+            "nav nav"
+            "qod difficulty"
+            "main main"
+    }
+
+    .main {
+        margin-left: 1rem;
+    }
+
+    .difficulty-box {
+        margin-right: 1rem;
+        margin-left: 0;
+    }
+}

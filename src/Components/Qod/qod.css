@@ -1,0 +1,21 @@
+.container__qod {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.giffy {
+    height: 60x;
+    width: 60px;
+}
+
+.question__text {
+    text-align: center;
+}
+
+.prob_link {
+    text-decoration: none;
+}

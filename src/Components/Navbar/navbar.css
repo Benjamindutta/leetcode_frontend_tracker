@@ -2,15 +2,17 @@
     width: 50px;
     height: 50px;
     cursor: pointer;
+    filter: drop-shadow(-4px 5px 45px var(--color-shadow));
 }
 
 .header__class {
-    background-color: #24252A;
+    background-color: transparent;
     color: #edf0f1;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 70px;
+    margin-top: 0px;
+    height: 4rem;
 }
 
 .nav__list {
@@ -21,6 +23,14 @@
     display: inline-block;
     padding: 0px 20px;
     cursor: pointer;
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+}
+
+.nav__list li:hover {
+    transform: scale(1.1);
+    text-shadow: 3px 4px 12px rgb(170, 255, 0);
+    transition: .5s;
 }
 
 .nav__list li a {
@@ -29,28 +39,13 @@
 }
 
 .nav__list li a:hover {
-    color: rgb(170, 255, 0);
+    color: var(--color-shadow);
 }
 
 .active {
-    color: rgb(170, 255, 0) !important;
+    color: var(--color-shadow) !important;
 }
 
-.username:hover {
-    color: rgb(170, 255, 0);
-    cursor: pointer;
-}
-
-.search-bar input {
-    padding: 5px;
-    border: none;
-    border-radius: 3px;
-    margin-right: 5px;
-}
-
-.search-bar button {
-    cursor: pointer;
-}
 
 .logout {
     margin-left: 7.5%;
@@ -62,15 +57,11 @@
 }
 
 @media (max-width: 768px) {
-    .header__class {
-        flex-direction: column;
-        text-align: center;
-        height: 35%;
+    .logo__leetcode {
+        margin-left: 7%;
     }
+}
 
-    .search-bar {
-        margin-bottom: 2.5%;
-    }
-
-
+.logo__leetcode:hover {
+    transform: rotate(15deg);
 }

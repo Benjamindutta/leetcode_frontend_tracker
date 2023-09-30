@@ -1,12 +1,12 @@
 import React from 'react'
 
-const QuestionCard = () => {
+const QuestionCard = ({ id, title, url }) => {
     return (
         <div className='card__container'>
-            <span>question number</span>
-            <span>Quenstion name</span>
-            <a href='' >Question Link</a>
-            <difficultyBAdge />
+            <span>{id}</span>
+            <span>{title}</span>
+            <a href={url} >{url}</a>
+            {/* <difficultyBAdge /> */}
         </div>
     )
 }
