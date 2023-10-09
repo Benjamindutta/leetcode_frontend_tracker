@@ -23,5 +23,6 @@
 .loader__container {
     display: flex;
     justify-content: center;
-    padding-top: 45vh;
+    align-items: center;
+    height: 100%;
 }

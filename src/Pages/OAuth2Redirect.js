@@ -22,7 +22,6 @@ const OAuth2Redirect = () => {
 
     useEffect(() => {
         const accessToken = extractUrlParam('token');
-        console.log(accessToken);
         if (accessToken) {
             handleLogin(accessToken);
             const redirect = '/';

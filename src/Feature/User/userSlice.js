@@ -1,5 +1,5 @@
 import { createSlice } from '@reduxjs/toolkit';
-import { getCookie, removeCookie, setCookie, setJwt } from '../../MIsc/Helpers';
+import { getCookie, removeCookie, setJwt } from '../../MIsc/Helpers';
 
 
 

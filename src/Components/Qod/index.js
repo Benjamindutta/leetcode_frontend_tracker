@@ -12,9 +12,9 @@ const Qod = () => {
 
     return (
         <div className='container__qod'>
-            <img className='giffy' src='https://media.giphy.com/media/kMAsQuuEeQIwm4eSVJ/giphy.gif' />
+            <img className='giffy' src='https://media.giphy.com/media/ewh4ipgPw1bBVj4HI5/giphy.gif' loading='lazy' />
             <h3 className='question__text'>Question of the day</h3>
-            <div><span>click here to </span><a className='prob_link' href={question} target='_blank'>Solve🚀</a></div>
+            <div className='solve__text'><span>click here to </span><a className='prob_link' href={question} target='_blank'>Solve🚀</a></div>
         </div>
     )
 }

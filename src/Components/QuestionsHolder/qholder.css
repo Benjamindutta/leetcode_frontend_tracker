@@ -1,0 +1,119 @@
+.question__div {
+    display: grid;
+    width: 95%;
+    grid-template-columns: .5fr 2fr 1fr 1fr 1.5fr .5fr;
+    height: 2.2rem;
+    align-items: center;
+    background: linear-gradient(black, black) padding-box, linear-gradient(315deg, #ff1a1a 0%, #ffff00 60%) border-box;
+    border-radius: 20px;
+    border: 4px solid transparent;
+    transition: all 0.2s ease-in-out;
+    margin-top: 1em;
+}
+
+.question__div:hover {
+    box-shadow: 0px 0px 15px 12px rgba(232, 251, 3, 0.3);
+    transform: scale(1.01);
+}
+
+.holder__container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input[type=search] {
+    background: linear-gradient(black, black) padding-box, linear-gradient(45.8deg, rgb(175, 104, 254) 9.3%, rgb(101, 223, 255) 75.1%) border-box;
+    width: 50%;
+    border: 4px solid transparent;
+    padding: 6px;
+    border-radius: 25px;
+    color: aliceblue;
+    transition: all 0.2s ease-in-out;
+}
+
+input[type=search]::placeholder {
+    color: aliceblue;
+}
+
+input[type=search]:focus {
+    -webkit-box-shadow: 0px 0px 15px 12px rgba(69, 3, 251, 0.3);
+    -moz-box-shadow: 0px 0px 15px 12px rgba(69, 3, 251, 0.3);
+    box-shadow: 0px 0px 15px 12px rgba(69, 3, 251, 0.3);
+    border: 3px solid transparent;
+    transform: scale(1.04);
+    outline: none;
+}
+
+.questions__list__holder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.scrollable__list {
+    overflow-y: scroll;
+    height: 80%;
+    width: 90%;
+}
+
+.id__span {
+    padding-left: 1rem;
+}
+
+.title__span {
+    padding-left: 1rem;
+}
+
+.link__span {
+    padding-left: 1rem;
+}
+
+
+.search_div {
+    margin-top: .5rem;
+    height: 5%;
+    width: 80%;
+    text-align: center;
+}
+
+.youtube__img {
+    margin-right: 2rem;
+}
+
+.youtubeicon {
+    height: 25px;
+    width: 25px;
+    ;
+}
+
+.youtubeicon:hover {
+    transform: scale(1.01);
+}
+
+/* .modal {
+    background-color: #ff1a1a;
+    position: fixed;
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+} */
+
+.No_question_container {
+    height: 90%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.empty__image {
+    height: 40%;
+    width: 40%;
+}
+
+.solve__class {
+    margin-bottom: 10px;
+}

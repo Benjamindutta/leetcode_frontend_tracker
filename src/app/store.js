@@ -5,6 +5,6 @@ import userReducer from '../Feature/User/userSlice';
 export const store = configureStore({
     reducer: {
         user: userReducer,
-        question: questionReducer,
+        question: questionReducer
     }
 });

@@ -1,0 +1,56 @@
+.ai__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 95%;
+    width: 95%;
+    padding: .5%;
+}
+
+.form__container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.code__container {
+    background-color: transparent;
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.codeArea {
+    width: 95%;
+    height: 80%;
+    border: 3px #02f2fa solid;
+    border-radius: 4px;
+    color: #F0FFFF;
+    resize: none;
+    outline: none;
+    padding: 4px;
+    background-color: transparent;
+}
+
+.promptButton {
+    background: linear-gradient(45.8deg, rgb(175, 104, 254) 9.3%, rgb(101, 223, 255) 75.1%);
+    border-radius: 25px;
+    color: aliceblue;
+    padding: 7px;
+    padding-left: 10px;
+    border: none;
+}
+
+.promptans__container {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+}
+
+.generate__container {
+    margin-top: 2rem;
+}

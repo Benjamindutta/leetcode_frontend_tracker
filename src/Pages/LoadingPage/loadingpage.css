@@ -1,0 +1,18 @@
+.loaderpage__container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loaderpage__loader {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border: 5px solid rgb(170, 255, 0);
+    border-bottom-color: #FF5733;
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+}

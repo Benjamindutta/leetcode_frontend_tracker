@@ -33,8 +33,8 @@ export function Logout() {
 
 export function setJwt(name, value, exp) {
     const expirationDate = new Date(exp * 1000);
-    // console.log(expirationDate);
-    // const utcExpDate = expirationDate.toUTCString;
     Cookies.set(name, value, { expires: expirationDate });
 }
+
+export const BASE_URL = "http://leetcodrz.ap-south-1.elasticbeanstalk.com";
 

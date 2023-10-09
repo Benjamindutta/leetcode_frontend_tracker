@@ -1,0 +1,29 @@
+.github__icon {
+    cursor: pointer;
+}
+
+.login__container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    color: rgb(170, 255, 0);
+}
+
+.login__github__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: greenyellow;
+    align-items: center;
+}
+
+.git_icon {
+    box-shadow: 0px 0px 18px -3px rgb(170, 255, 0);
+    border-radius: 50%;
+}
+
+.typewritter__container {
+    font-size: 2rem;
+}
