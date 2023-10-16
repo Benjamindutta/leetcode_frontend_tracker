@@ -60,3 +60,7 @@
 .warning {
     color: #FF3131;
 }
+
+.list_items {
+    list-style: none;
+}

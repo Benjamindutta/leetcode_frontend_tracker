@@ -90,6 +90,18 @@ const MainPage = () => {
                             </div>
                         </div>
                     }
+                    <ol className='list_items'>
+                        <li><h4>First login using this link <a href='/login'>login</a></h4></li>
+                        <li><h4>Enter your leetcode username correctly if you have not entered already .</h4></li>
+                        <li><h4>Install the chrome extension from this link . <a href='https://github.com/Benjamindutta/Leetcodrz-chrome-extension' target='_blank'>Link</a></h4></li>
+                        <li><h4>Learn How to load chrome extension <a href='https://youtu.be/oswjtLwCUqg?si=qMv20f9ko2BdVn0D' target='_blank'>Link</a></h4></li>
+                        <li><h4>Solve the question old version of UI</h4></li>
+                        <li><h4>Open profile section as show in the picture below</h4></li>
+                        <li><img src='howto.png' width='50%' /></li>
+                        <li><h4>And click on the submit on the chrome extension to save the problem to the database..</h4></li>
+                    </ol>
+                    <h3>Happy Leetcoding</h3>
+                    <h4>Made with 💖 by Benjamin</h4>
                 </div>
             </div>
         </>

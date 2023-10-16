@@ -36,5 +36,7 @@ export function setJwt(name, value, exp) {
     Cookies.set(name, value, { expires: expirationDate });
 }
 
-export const BASE_URL = "http://leetcodrz.ap-south-1.elasticbeanstalk.com";
+export const BASE_URL = "http://leetcodrz.ap-south-1.elasticbeanstalk.com";//for production
+
+// export const BASE_URL = "http://localhost:5000";//for development
 
